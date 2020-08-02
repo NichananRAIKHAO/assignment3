@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Colors 7 Days</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+    <style>
+      body{
+      font-family: 'Prompt';
+      }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        background-image: url(picture/wallpaper.jpg);
+        height: 500px;
+        background-position: center;
+      }
+      ul{
+        float: right;
+        list-style-type: none;
+      }
+      ul li{
+        display: inline-block;
+      }
+
+      ul li a{
+        text-decoration: none;
+        color: #ffff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+      }
+      ul.a {
+        list-style-type: circle;
+      }
+      ul li a:hover{
+        background-color: #fff;
+        color: #000;
+      }
+      ul li.active a{
+        background-color: #fff;
+        color: #000;
+      }
+      .main{
+        max-width: 1300px;
+        margin: auto;
+      }
+      .navbar-brand{
+        color:#ffff;
+        font-size: 30px;
+        margin: 16px;
+        top: 20px; 
+      }
+
+      .title{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        transform: translate(-50%-50%);
+        font-family: 'Prompt';
+        color: #ffff;
+      }
+
+      .position{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        transform: translate(-50%-50%);
+        color: #ffff;
+        font-size: 100px;
+      }
+
+      .block-3 {
+	      width: 800px;
+          margin: 20px;
+          margin-top: 50px;
+          float: left;
+          
+      }
+
+      .sunday{
+        background-image: url(picture/sunday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+
+      .monday{
+        background-image: url(picture/monday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+      
+      .tuesday{
+        background-image: url(picture/tuesday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+      
+      .block-4 {
+	      width: 1500px;
+          height: 120px;
+          margin-top: 50px;
+          margin-right: 100px;
+	      float: right;
+      }
+      </style>
+  </head>
+<body>
+    <!-- Menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-brand" href="#">Menu</span>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class= "mr-auto mt-4 mt-lg-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                History
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="home.html #history1">ที่มาของวันทั้งเจ็ด</a>
+                <a class="dropdown-item" href="home.html #history2">ที่มาของชื่อวันในไทย</a> 
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Days
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#sunday">Sunday</a>
+                <a class="dropdown-item" href="#monday">Monday</a>
+                <a class="dropdown-item" href="#tuesday">Tuesday</a>
+                <a class="dropdown-item" href="days(wed-thu-fri-sat).html #wednesday">Wednesday</a>
+                <a class="dropdown-item" href="days(wed-thu-fri-sat).html #thursday">Thursday</a>
+                <a class="dropdown-item" href="days(wed-thu-fri-sat).html #friday">Friday</a>
+                <a class="dropdown-item" href="days(wed-thu-fri-sat).html #saturday">Saturday</a>
+ 
+                
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reference.html #reference">Reference</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <h1 class="title" style="font-size: 300px;">7</h1>
+      <h2 class="title" style="font-size: 100px; top: 19%; left: 46%;">Colors</h2>
+      <h2 class="title" style="font-size: 100px; top: 33%; left: 44%;">Days</h2>
+    </div>
+    <img class="block-4" src="picture/sunday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="sunday" id="sunday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px;">วันอาทิตย์</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px;">
+        <p>ใช้สีแดงแทนวันอาทิตย์ มาจากพระอาทิตย์ที่ตามตำนานว่า พระอิศวรเอาราชสีห์ 6 ตัวมาป่น แล้วห่อด้วยผ้าสีแดง (Red Rose) พรมด้วยน้ำอมฤตบังเกิดเป็นพระอาทิตย์ มีกายสีแดง</p>
+        <p>พระอาทิตย์ (เทวนาครี: सूर्य, สูรยะ) เป็นเทวดานพเคราะห์องค์หนึ่ง มีอำนาจเหนือกว่าเทวดานพเคราะห์ทั้งหลาย ในคติไทย พระอาทิตย์ถูกสร้างขึ้นมาจากราชสีห์ 1 ตัว บดป่นเป็นผง ห่อผ้าสีแดง แล้วเสก ได้เป็นพระอาทิตย์ มีสีวรกายแดง 
+            ทรงราชสีห์เป็นพาหนะ ประจำอยู่ทิศตะวันออกเฉียงเหนือ เป็นเทวดานพเคราะห์ประเภทบาปเคราะห์ ให้ผลในทางก้าวร้าวรุนแรง นั่นคือ ผู้ใดเกิดวันอาทิตย์ หรือมีพระอาทิตย์สถิตร่วมกับลัคนา มักมีอารมณ์รุนแรง ตัดสินใจไว เฉียบขาด รักอิสระ แต่ซื่อสัตย์ ตามนิทานชาติเวร พระอาทิตย์เป็นมิตรกับพระพฤหัสบดี และเป็นศัตรูกับพระอังคาร</p>
+        <p>ในโหราศาสตร์ไทย พระอาทิตย์ถูกแทนด้วยสัญลักษณ์ 1 และด้วยเหตุที่สร้างขึ้นมาจากราชสีห์ 6 ตัวนี้เอง จึงทำให้มีกำลังพระเคราะห์เป็น 6</p>
+        </div>
+    </div>
+
+    <img class="block-3" src="picture/monday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="monday" id="monday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px; margin-right: 50px; text-align: right; float: right;" >วันจันทร์</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px; margin-right: 50px; float: right; text-indent: 10%;">
+        <p>ใช้สีเหลืองแทนวันจันทร์ มาจากพระจันทร์ ตามตำนานว่า พระอิศวรร่ายพระเวทให้นางฟ้า 15 นางกลายเป็นผงละเอียด แล้วห่อด้วยผ้าสีเหลืองอ่อน (Light Yellow) ประพรมด้วยน้ำอมฤต ก็บังเกิดเป็นพระจันทร์ มีกายสีเหลืองนวล</p>
+        <p>พระจันทร์ (เทวนาครี: चंद्र) เป็นเทวดานพเคราะห์องค์หนึ่ง ในคติไทย พระจันทร์ถูกสร้างขึ้นมาจากนางอัปสร (นางฟ้า) ๑๕ องค์ บดป่นเป็นผง ห่อผ้าสีขาวนวล แล้วเสกได้เป็นพระจันทร์ มีสีวรกายขาวนวล ทรงอาชา (ม้า) เป็นพาหนะ ประจำอยู่ทิศตะวันออก 
+            เป็นเทวดานพเคราะห์ประเภทศุภเคราะห์ ให้ผลในทางนุ่มนวลอ่อนโยน นั่นคือ ผู้ใดเกิดวันจันทร์ หรือมีพระจันทร์สถิตร่วมกับลัคนา มักมีอารมณ์อ่อนโยน เพ้อฝัน รวนเร (แต่อาจมีเล่ห์เหลี่ยมมาก) ตามนิทานชาติเวร พระจันทร์เป็นมิตรกับพระพุธ และเป็นศัตรูกับพระพฤหัสบดี </p>
+        <p>ในโหราศาสตร์ไทย พระจันทร์ถูกแทนด้วยสัญลักษณ์ 2 และด้วยเหตุที่สร้างขึ้นมาจากนางฟ้า 15 องค์ จึงมีกำลังพระเคราะห์เป็น 15</p>
+        </div>
+    </div>
+
+    <img class="block-4" src="picture/tuesday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="tuesday" id="tuesday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px;">วันอังคาร</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px;">
+        <p>ใช้สีชมพูแทนวันอังคาร มาจากพระอังคาร ตามตำนานเล่าว่า พระอิศวรร่ายพระเวทให้กระบือ 8 ตัวกลายเป็นผงแล้วห่อด้วยผ้าสีแดงหลัว ก็บังเกิดเป็นพระอังคาร มีสีกายเป็นสีแก้วเพทาย (แดงหลัว) บางแห่งก็ว่าเป็นสีชมพู</p>
+        <p>พระอังคาร (เทวนาครี: मंगल, มังคละ) เป็นเทวดานพเคราะห์องค์หนึ่ง ในคติไทย พระอังคารถูกสร้างขึ้นมาจากกระบือ (ควาย) 8 ตัว บดป่นเป็นผง ห่อผ้าสีชมพูหม่น แล้วเสกได้เป็นพระอังคาร มีสีวรกายชมพู ทรงมหิงสาเป็นพาหนะ ประจำอยู่ทิศตะวันออกเฉียงใต้
+            เป็นเทวดานพเคราะห์ประเภทบาปเคราะห์ ให้ผลในทางรุนแรงและเร่าร้อน นั่นคือ ผู้ใดเกิดวันอังคาร หรือมีพระอังคารสถิตร่วมกับลัคนา มักมีอารมณ์มุทะลุ ตึงตัง ชอบใช้กำลัง ใจร้อน ตามนิทานชาติเวร พระอังคารเป็นมิตรกับพระศุกร์ และเป็นศัตรูกับพระอาทิตย์</p>
+        <p>ในโหราศาสตร์ไทย พระอังคารถูกแทนด้วยสัญลักษณ์ 8 และด้วยเหตุที่สร้างขึ้นมาจากกระบือ 8 ตัว จึงมีกำลังพระเคราะห์เป็น 8</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

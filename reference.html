@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Colors 7 Days</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+    <style>
+      body{
+      font-family: 'Prompt';
+      }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        background-image: url(picture/wallpaper.jpg);
+        height: 500px;
+        background-position: center;
+      }
+      ul{
+        float: right;
+        list-style-type: none;
+      }
+      ul li{
+        display: inline-block;
+      }
+
+      ul li a{
+        text-decoration: none;
+        color: #ffff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+      }
+      ul.a {
+        list-style-type: circle;
+      }
+      ul li a:hover{
+        background-color: #fff;
+        color: #000;
+      }
+      ul li.active a{
+        background-color: #fff;
+        color: #000;
+      }
+      .main{
+        max-width: 1300px;
+        margin: auto;
+      }
+      .navbar-brand{
+        color:#ffff;
+        font-size: 30px;
+        margin: 16px;
+        top: 20px; 
+      }
+
+      .title{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        transform: translate(-50%-50%);
+        font-family: 'Prompt';
+        color: #ffff;
+      }
+
+      div.polaroid {
+        width: 450px;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        position: center;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+      .position{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        transform: translate(-50%-50%);
+        color: #ffff;
+        font-size: 100px;
+      }
+
+      .block-3 {
+	      width: 1500px;
+	      margin: 20px;
+          float: left;
+          
+      }
+
+      .wednesday{
+        background-image: url(picture/wednesday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+
+      .thursday{
+        background-image: url(picture/thursday.jpg);
+        height: 560px;
+        background-position: center;
+      }
+      
+      .friday{
+        background-image: url(picture/friday.jpg);
+        height: 560px;
+        background-position: center;
+      }
+
+            
+      .saturday{
+        background-image: url(picture/saturday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+      
+      .block-4 {
+	      width: 1500px;
+          height: 120px;
+          margin-top: 50px;
+          margin-right: 100px;
+	      float: right;
+      }
+      </style>
+  </head>
+<body>
+    <!-- Menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-brand" href="#">Menu</span>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class= "mr-auto mt-4 mt-lg-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                History
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="home.html #history1">ที่มาของวันทั้งเจ็ด</a>
+                <a class="dropdown-item" href="home.html #history2">ที่มาของชื่อวันในไทย</a> 
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Days
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="days(sun-mon-tue).html #sunday">Sunday</a>
+                <a class="dropdown-item" href="days(sun-mon-tue).html #monday">Monday</a>
+                <a class="dropdown-item" href="days(sun-mon-tue).html #tuesday">Tuesday</a>
+                <a class="dropdown-item" href="#wednesday">Wednesday</a>
+                <a class="dropdown-item" href="#thursday">Thursday</a>
+                <a class="dropdown-item" href="#friday">Friday</a>
+                <a class="dropdown-item" href="#saturday">Saturday</a>
+ 
+                
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reference">Reference</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <h1 class="title" style="font-size: 300px;">7</h1>
+      <h2 class="title" style="font-size: 100px; top: 19%; left: 46%;">Colors</h2>
+      <h2 class="title" style="font-size: 100px; top: 33%; left: 44%;">Days</h2>
+    </div>
+
+    <u class="block-3 w3-animate-left" style= "font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; text-align: center;">อ้างอิง</u>
+
+    <div class="w3-row-padding">
+    <div class="polaroid w3-third w3-container w3-margin-bottom" style="margin-left: 43px; margin-right: 0px;">
+        <img src="picture/ref-1.jpg" alt="Norway" style="width:100%; padding-top: 10px; padding-bottom: 10px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white" style="padding-bottom: 1px;">
+        <p><b>เนื้อหา "ที่มาของวันทั้งเจ็ด"</b></p>
+        <p>อาสาสมัครวิกิพีเดีย."Names of the days of the week." <i>วิกิพีเดีย, สารานุกรมเสรี.</i> วิกิพีเดีย, สารานุกรมเสรี, 2 สิงหาคม 2563. เว็บไซต์. &lthttps://en.wikipedia.org/wiki/ namesofthedaystheweek&gt</p>
+      </div>
+    </div>
+    <div class="polaroid w3-third w3-container w3-margin-bottom" style="margin-right: 0px;">
+        <img src="picture/ref-2.jpg" alt="Norway" style="width:100%; padding-top: 15px; padding-bottom: 10px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white" style="padding-bottom: 22px;">
+        <p><b>เนื้อหา "ที่มาของชื่อวันในไทย"</b></p>
+        <p>สำนักงานราชบัณฑิตยสภา. (2558).ชื่อวันในภาษาไทย. สืบค้นเมื่อ 31 กรกฎาคม 2563, from http://www.royin.go.th/?knowledges=ชื่อวันในภาษาไทย-๑๔-มกรา.<br></p>
+      </div>
+    </div>
+    <div class="polaroid w3-third w3-container" style ="margin-right: 50px;">
+        <img src="picture/ref-3.jpg" alt="Norway" style="width:100%; padding-top: 15px; padding-bottom: 10px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white" style="padding-bottom: 3px;">
+        <p><b>เนื้อหา "ที่มาสีประจำวันทั้งเจ็ด"</b></p>
+        <p>อาสาสมัครวิกิพีเดีย."สีประจำวันในประเทศไทย" <i>วิกิพีเดีย, สารานุกรมเสรี.</i> วิกิพีเดีย, สารานุกรมเสรี, 9 มิถุนายน 2563. เว็บไซต์. &lthttps://th.wikipedia.org/wiki/สีประจำวันในประเทศไทย&gt</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="polaroid w3-third w3-container w3-margin-bottom" style="margin-left: 43px; margin-right: 0px;">
+      <img src="picture/ref-4.jpg" alt="Norway" style="width:100%; padding-top: 15px; padding-bottom: 10px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>รูปภาพ "ภาพส่วนหนึ่งของหนังสือรามายณะ"</b></p>
+        <p>Kangra. Sita and Rama: The Ramayana in Indian Painting. รูปภาพดิจิทัล. openthemagazine. The Metropolitan Museum of Art, New York, 4 ตุลาคม 2562. Web. 31 กรกฎาคม 2563. </p>
+      </div>
+    </div>
+    <div class="polaroid w3-third w3-container w3-margin-bottom" style="margin-right: 0px;">
+        <img src="picture/ref-5.jpg" alt="Norway" style="width:100%; padding-top: 15px; padding-bottom: 10px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>รูปภาพ "เทพนพเคราะห์"</b></p>
+        <p>Anant Shivaji Desai, Ravi Varma Press. Navagraha Navagrahas. รูปภาพดิจิทัล. Wikipedia. baroda art gallery museum video screen shots, New York, c 2343-2443. Web. 31 กรกฎาคม 2563.</p>
+      </div>
+    </div>
+    <div class="polaroid w3-third w3-container" style ="margin-right: 50px;">
+        <img src="picture/ref-6.jpg" alt="Norway" style="width:100%; padding-top: 15px; padding-bottom: 10px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white" style="padding-bottom: 22px;">
+        <p><b>รูปภาพ "Navagraha Japa"</b></p>
+        <p>Astrobhava. Navagraha Japa gives relief from negative energy. รูปภาพดิจิทัล. Astrobhava. Astrobhava Inc, 4 กุมภาพันธ์ 2558. Web. 31 กรกฎาคม 2563. </p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <u class="block-3 w3-animate-left" style= "font-family: 'Prompt', sans-serif; font-size: 40px; margin-left: 30px; margin-top: 30px;">จัดทำโดย</u>
+    <p style="text-indent: 10%; font-size: 20px; margin-bottom: 40px;"> นางสาว ณิชานันท์ ไร่ขาว รหัสนิสิต 6010450284 </p>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

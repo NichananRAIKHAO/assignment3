@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Colors 7 Days</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+    <style>
+      body{
+      font-family: 'Prompt';
+      }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        background-image: url(picture/wallpaper.jpg);
+        height: 500px;
+        background-position: center;
+      }
+      ul{
+        float: right;
+        list-style-type: none;
+      }
+      ul li{
+        display: inline-block;
+      }
+
+      ul li a{
+        text-decoration: none;
+        color: #ffff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+      }
+      ul.a {
+        list-style-type: circle;
+      }
+      ul li a:hover{
+        background-color: #fff;
+        color: #000;
+      }
+      ul li.active a{
+        background-color: #fff;
+        color: #000;
+      }
+      .main{
+        max-width: 1300px;
+        margin: auto;
+      }
+      .navbar-brand{
+        color:#ffff;
+        font-size: 30px;
+        margin: 16px;
+        top: 20px; 
+      }
+
+      .title{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        transform: translate(-50%-50%);
+        font-family: 'Prompt';
+        color: #ffff;
+      }
+
+      .position{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        transform: translate(-50%-50%);
+        color: #ffff;
+        font-size: 100px;
+      }
+
+      .block-3 {
+	      width: 800px;
+	      margin: 20px;
+          float: left;
+          
+      }
+
+      .wednesday{
+        background-image: url(picture/wednesday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+
+      .thursday{
+        background-image: url(picture/thursday.jpg);
+        height: 560px;
+        background-position: center;
+      }
+      
+      .friday{
+        background-image: url(picture/friday.jpg);
+        height: 560px;
+        background-position: center;
+      }
+
+            
+      .saturday{
+        background-image: url(picture/saturday.jpg);
+        height: 530px;
+        background-position: center;
+      }
+      
+      .block-4 {
+	      width: 1500px;
+          height: 120px;
+          margin-top: 50px;
+          margin-right: 100px;
+	      float: right;
+      }
+      </style>
+  </head>
+<body>
+    <!-- Menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-brand" href="#">Menu</span>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class= "mr-auto mt-4 mt-lg-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                History
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="home.html #history1">ที่มาของวันทั้งเจ็ด</a>
+                <a class="dropdown-item" href="home.html #history2">ที่มาของชื่อวันในไทย</a> 
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Days
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="days(sun-mon-tue).html #sunday">Sunday</a>
+                <a class="dropdown-item" href="days(sun-mon-tue).html #monday">Monday</a>
+                <a class="dropdown-item" href="days(sun-mon-tue).html #tuesday">Tuesday</a>
+                <a class="dropdown-item" href="#wednesday">Wednesday</a>
+                <a class="dropdown-item" href="#thursday">Thursday</a>
+                <a class="dropdown-item" href="#friday">Friday</a>
+                <a class="dropdown-item" href="#saturday">Saturday</a>
+ 
+                
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reference.html #reference">Reference</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <h1 class="title" style="font-size: 300px;">7</h1>
+      <h2 class="title" style="font-size: 100px; top: 19%; left: 46%;">Colors</h2>
+      <h2 class="title" style="font-size: 100px; top: 33%; left: 44%;">Days</h2>
+    </div>
+
+    <img class="block-3" src="picture/wednesday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="wednesday" id="wednesday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px; margin-right: 50px; text-align: right; float: right;" id="history1">วันพุธ</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px; margin-right: 50px; float: right; text-indent: 10%;">
+        <p>ใช้สีพุธแทนวันพุธ มาจากพระพุธ ตามตำนานว่า พระอิศวรร่ายพระเวทให้พญาคชสาร 17 ตัวกลายเป็นผงห่อด้วยผ้าสีเขียวใบไม้ ประพรมด้วยน้ำอมฤตก็บังเกิดเป็นพระพุธ มีสีกายเป็นสีแก้วมรกต</p>
+        <p>พระพุธ (เทวนาครี: बुध, พุธ) เป็นเทวดานพเคราะห์องค์หนึ่ง ในคติไทย พระพุธถูกสร้างขึ้นมาจากคชสาร (ช้าง) 17 เชือก บดป่นเป็นผง ห่อผ้าสีเขียวใบไม้ แล้วเสกได้เป็นพระพุธ มีพระวรกายเขียว ทรงราชสีห์เป็นพาหนะ ประจำอยู่ทิศใต้ 
+            เป็นเทวดานพเคราะห์ประเภทศุภเคราะห์ ให้ผลในทางอ่อนโยนไพเราะ นั่นคือ ผู้ใดเกิดวันพุธ หรือมีพระพุธสถิตร่วมกับลัคนา มักชอบพูดชอบเจรจา สุขุมรอบคอบ แต่ตื่นกลัวง่าย ตามนิทานชาติเวร พระพุธเป็นมิตรกับพระจันทร์ และเป็นศัตรูกับพระราหู </p>
+        <p>ในโหราศาสตร์ไทย พระพุธถูกแทนด้วยสัญลักษณ์ 4 และด้วยเหตุที่สร้างขึ้นมาจากคชสาร 17 เชือก จึงมีกำลังพระเคราะห์เป็น 17 </p>
+        </div>
+    </div>
+
+    <img class="block-4" src="picture/thursday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="thursday" id="thursday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px;" id="history1">วันพฤหัสบดี</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px;">
+        <p>ใช้สีส้มแทนวันพฤหัสบดี มาจากพระพฤหัสบดี ตามตำนานว่า พระอิศวรร่ายพระเวทให้พระฤๅษี 19 ตนกลายเป็นผง แล้วเอาผ้าสีแสด (Bright Red Orange) ห่อผงนั้น ประพรมด้วยน้ำอมฤต ก็บังเกิดเป็นพระพฤหัสบดี มีสีกายเหมือนสีผ้าที่ห่อ</p>
+        <p>พระพฤหัสบดี (เทวนาครี: बृहस्पति, พฤหัสบดี) เป็นเทวดานพเคราะห์องค์หนึ่ง ในคติไทย พระพฤหัสบดีถูกสร้างขึ้นมาจากฤษี 19 ตน บดป่นเป็นผง ห่อผ้าสีเหลืองส้ม แล้วเสกได้เป็นพระพฤหัสบดี มีสีวรกายส้มแดง ทรงมฤค (กวาง) เป็นพาหนะ ประจำอยู่ทิศตะวันตก พระพฤหัสบดีจัดว่าเป็นครูของเทวดาทั้งหลาย จึงนิยมทำพิธีไหว้ครูในวันพฤหัสบดี
+            เป็นเทวดานพเคราะห์ประเภทศุภเคราะห์ ให้ผลดังเช่นนิสัยแห่งพระฤษี นั่นคือ ผู้ใดเกิดวันพฤหัสบดี หรือมีพระพฤหัสบดีสถิตร่วมกับลัคนา มักทำอะไรด้วยความระมัดระวัง สุขุมรอบคอบ เมตตาปรานีต่อผู้อื่น ตามนิทานชาติเวร พระพฤหัสบดีเป็นมิตรกับพระอาทิตย์ และเป็นศัตรูกับพระจันทร์ 
+            </p>
+        <p>ในโหราศาสตร์ไทย พระพฤหัสบดีถูกแทนด้วยสัญลักษณ์ 5 และด้วยเหตุที่สร้างขึ้นมาจากฤษี 19 ตน จึงมีกำลังพระเคราะห์เป็น 19</p>
+        </div>
+    </div>
+
+    <img class="block-3" src="picture/friday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="friday" id="friday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px; margin-right: 50px; text-align: right; float: right;" id="history1">วันศุกร์</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px; margin-right: 50px; float: right; text-indent: 10%;">
+        <p>ใช้สีเฟ้าแทนวันศุกร์ มาจากพระศุกร์ ตามตำนานว่า พระอิศวรร่ายพระเวทให้โค 21 ตัวกลายเป็นผง แล้วห่อด้วยผ้าสีน้ำเงินหรือสีคราม (Light Indigo Blue) ประพรมด้วยน้ำอมฤต ก็บังเกิดเป็นพระศุกร์ มีสีกายกล่าวไว้ต่าง ๆ กัน แต่ตามภาพเขียนเป็นสีคราม</p>
+        <p> พระศุกร์ (เทวนาครี: बृहस्पति) เป็นเทวดานพเคราะห์องค์หนึ่ง ในคติไทย พระศุกร์ถูกสร้างขึ้นมาจากโค (วัว) 21 ตัว (บางตำรากล่าวว่าสร้างจากเทพยาธร-ครึ่งเทพครึ่งมนุษย์) บดป่นเป็นผง ห่อผ้าสีฟ้าอ่อน แล้วเสกได้เป็นพระศุกร์ มีสีวรกายฟ้า ทรงคาวีเป็นพาหนะ ประจำอยู่ทิศเหนือ  พระศุกร์จัดเป็นครูของพวกยักษ์ ซึ่งตรงข้ามกับพระพฤหัสบดีที่เป็นครูของเทพ
+            เป็นเทวดานพเคราะห์ประเภทศุภเคราะห์ ให้ผลในทางอ่อนหวาน แต่ค่อนข้างไปทางใฝ่ต่ำ นั่นคือ ผู้ใดเกิดวันศุกร์หรือมีพระศุกร์สถิตร่วมกับลัคนา มักมีกิริยาน่ารัก อ่อนหวาน ชอบงานศิลปะทุกประเภท ตามนิทานชาติเวร พระศุกร์เป็นมิตรกับพระอังคารและเป็นศัตรูกับพระเสาร์</p>
+        <p>ในโหราศาสตร์ไทย พระศุกร์ถูกแทนด้วยสัญลักษณ์ 6 และด้วยเหตุที่สร้างขึ้นมาจากโค 21 ตัว จึงมีกำลังพระเคราะห์เป็น 21</p>
+        </div>
+    </div>
+
+    <img class="block-4" src="picture/saturday-pic.png" alt="5 Terre" style="height: 30%; width:30%">
+    <div class="saturday" id="saturday">
+        <u class="block-3 w3-animate-left" style= "color: white; font-family: 'Prompt', sans-serif; font-size: 50px; margin-top: 30px; margin-left: 30px;" id="history1">วันเสาร์</u>
+        <div class="block-3" style="color: white; font-family: 'Prompt', sans-serif; font-size: 20px; text-indent: 10%; text-align: justify; margin-top: 0px;">
+        <p>ใช้สีม่วงแทนวันเสาร์ มาจากพระเสาร์ ตามตำนานกล่าวว่า พระอิศวรร่ายพระเวทให้เสือ 10 ตัวกลายเป็นผงแล้วห่อด้วยผ้าสีดำหลัว (Dark Brown Sepia) ประพรมด้วยน้ำอมฤต ก็บังเกิดเป็นพระเสาร์ มีกายสีดำคล้ำ</p>
+        <p>พระเสาร์ (เทวนาครี: शनि, ศนิ) เป็นเทวดานพเคราะห์องค์หนึ่ง ในคติไทย พระเสาร์ถูกสร้างขึ้นมาจากพยัคฆ์ (เสือ) 10 ตัว บดป่นเป็นผง ห่อผ้าสีดำ แล้วเสกได้เป็นพระเสาร์มีสีวรกายดำคล้ำ ทรงพยัคฆ์เป็นพาหนะ ประจำอยู่ทิศตะวันตกเฉียงใต้
+            เป็นเทวดานพเคราะห์ประเภทบาปเคราะห์ ให้ผลในทางรุนแรง นั่นคือ ผู้ใดเกิดวันเสาร์หรือมีพระเสาร์สถิตร่วมกับลัคนา มักมีกิริยาดุดัน แข็งแรง กล้าได้กล้าเสีย บุคลิกเคร่งขรึม ตามนิทานชาติเวร พระเสาร์เป็นมิตรกับพระราหูและเป็นศัตรูกับพระศุกร์
+        <p>ในโหราศาสตร์ไทย พระเสาร์ถูกแทนด้วยสัญลักษณ์ 7 และด้วยเหตุที่สร้างขึ้นมาจากพยัคฆ์ 10 ตัว จึงมีกำลังพระเคราะห์เป็น 10</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
